@@ -1,33 +1,5 @@
 {
   "version": 2,
-  "name": "rbsglobalventures",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/privacy-policy",
-      "dest": "/privacy-policy.html"
-    },
-    {
-      "src": "/terms-of-service", 
-      "dest": "/terms-of-service.html"
-    },
-    {
-      "src": "/cookie-policy",
-      "dest": "/cookie-policy.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "installCommand": "npm install",
@@ -60,7 +32,7 @@
       ]
     },
     {
-      "source": "/(.*\\\\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot))",
+      "source": "/static/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -81,6 +53,10 @@
     {
       "source": "/cookie-policy",
       "destination": "/"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
