@@ -1,0 +1,97 @@
+import { ImageWithFallback } from './figma/ImageWithFallback';
+import { CheckCircle2 } from 'lucide-react';
+
+export function SteelProducts() {
+  const products = [
+    {
+      category: 'TMT Bars & Rods',
+      image: 'https://images.unsplash.com/photo-1763926025678-95d196d0ab28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGNvbnN0cnVjdGlvbiUyMG1hdGVyaWFsc3xlbnwxfHx8fDE3NzQxNjU0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      items: ['Fe 415', 'Fe 500', 'Fe 550', 'Fe 600'],
+      description: 'High-grade TMT bars for construction',
+    },
+    {
+      category: 'Structural Steel',
+      image: 'https://images.unsplash.com/photo-1761519610092-443f7c5f6f5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGJlYW1zJTIwd2FyZWhvdXNlfGVufDF8fHx8MTc3NDE2NTQ3NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      items: ['I-Beams', 'H-Beams', 'Channels', 'Angles'],
+      description: 'Industrial structural components',
+    },
+    {
+      category: 'Plates & Sheets',
+      image: 'https://images.unsplash.com/photo-1764115424737-25aca6f47835?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZXRhbCUyMHN0ZWVsJTIwcGxhdGVzJTIwc2hlZXRzfGVufDF8fHx8MTc3NDE2NTQ3NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      items: ['MS Plates', 'HR Sheets', 'CR Sheets', 'Chequered Plates'],
+      description: 'Various thicknesses and sizes',
+    },
+    {
+      category: 'Home Building Steel',
+      image: 'https://images.unsplash.com/photo-1686358244570-631340cbbd22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob21lJTIwY29uc3RydWN0aW9uJTIwc3RlZWwlMjBmcmFtZXxlbnwxfHx8fDE3NzQxNjU0NzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      items: ['Residential TMT', 'Window Frames', 'Door Frames', 'Grills'],
+      description: 'Complete solutions for home construction',
+    },
+  ];
+
+  return (
+    <section className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <div className="text-green-600 mb-2">Our Products</div>
+          <h2 className="text-3xl sm:text-4xl text-gray-900 mb-4">
+            Premium Steel Products for<br />Industrial & Home Use
+          </h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            We supply high-quality steel products for construction, manufacturing, and residential 
+            projects. All materials are sourced from trusted manufacturers and certified for quality.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
+          {products.map((product, index) => (
+            <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-64">
+                <ImageWithFallback
+                  src={product.image}
+                  alt={product.category}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <h3 className="text-2xl text-white mb-2">{product.category}</h3>
+                  <p className="text-gray-300 text-sm">{product.description}</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <div className="grid grid-cols-2 gap-3">
+                  {product.items.map((item, idx) => (
+                    <div key={idx} className="flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
+                      <span className="text-gray-700 text-sm">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="bg-green-600 rounded-2xl p-8 md:p-12 text-center text-white">
+          <h3 className="text-2xl md:text-3xl mb-4">
+            Need Steel Products for Your Project?
+          </h3>
+          <p className="text-green-100 mb-6 max-w-2xl mx-auto">
+            Whether you're building a home or working on an industrial project, we have the 
+            right steel products at competitive prices. Get a quote today!
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#contact">
+              <button className="bg-white text-green-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors">
+                Request Quote
+              </button>
+            </a>
+            <button className="bg-green-700 text-white px-8 py-3 rounded-lg hover:bg-green-800 transition-colors border border-white/20">
+              View Price List
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
