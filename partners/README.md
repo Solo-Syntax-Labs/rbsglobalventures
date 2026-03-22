@@ -1,6 +1,6 @@
 # Partner Logos
 
-This directory is for storing partner company logos.
+This directory is for storing partner company logos for the RBS Global Ventures website.
 
 ## How to Add Partner Logos
 
@@ -36,26 +36,34 @@ Save each logo with a standardized name format:
 - **File Size**: Keep under 100KB for optimal loading
 - **Color**: Original brand colors (code will handle grayscale/hover effects)
 
-### 4. Update the Homepage Code
+### 4. Update the Partners Component
 
-Once logos are added, update `src/app/page.tsx` to use `next/image` component:
+Once logos are added, update `src/app/components/Partners.tsx` to use the actual images:
 
 ```tsx
-import Image from 'next/image'
-
 // Replace the gradient icon divs with:
 <div className="w-16 h-16 mx-auto mb-3 relative">
-  <Image
+  <img
     src="/partners/agni-steels.png"
     alt="Agni Steels"
-    width={64}
-    height={64}
-    className="object-contain grayscale group-hover:grayscale-0 transition-all"
+    className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all"
   />
 </div>
 ```
 
+### 5. Public Directory Setup
+
+Make sure the logos are accessible by placing them in the public directory:
+- Move logos to `public/partners/` directory for production
+- Update import paths accordingly
+
 ## Current Status
 
-Currently using gradient-colored icon placeholders. Replace with actual logos for production.
+Currently using gradient-colored icon placeholders in the Partners component. Replace with actual logos for production deployment.
+
+## Notes
+
+- Logos should be high-quality and represent the brands accurately
+- Consider having both light and dark versions if needed
+- Test hover effects and responsiveness after adding real logos
 
