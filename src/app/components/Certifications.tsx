@@ -29,7 +29,7 @@ export function Certifications() {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="text-green-600 mb-2">Trust & Recognition</div>
+          <div className="text-purple-600 mb-2">Trust & Recognition</div>
           <h2 className="text-3xl sm:text-4xl text-gray-900 mb-4">
             Award Certificate & Participation
           </h2>
@@ -48,8 +48,8 @@ export function Certifications() {
                   key={index}
                   className="bg-white p-6 rounded-xl shadow-sm text-center hover:shadow-md transition-shadow"
                 >
-                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-8 h-8 text-green-600" />
+                  <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Icon className="w-8 h-8 text-purple-600" />
                   </div>
                   <h3 className="text-gray-900 mb-1">{cert.title}</h3>
                   <p className="text-gray-600 text-sm">{cert.description}</p>

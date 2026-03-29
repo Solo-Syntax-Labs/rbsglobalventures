@@ -253,7 +253,7 @@ export function Resources() {
           {/* Header */}
           <header className="mb-8">
             <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-medium">
+              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">
                 {selectedArticle.category}
               </span>
               <div className="flex items-center gap-2">
@@ -319,7 +319,7 @@ export function Resources() {
                   </Button>
                 </a>
                 <a href="#contact">
-                  <Button className="bg-green-600 hover:bg-green-700">
+                  <Button className="bg-purple-600 hover:bg-purple-700">
                     Get a Quote
                   </Button>
                 </a>
@@ -336,7 +336,7 @@ export function Resources() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="text-green-600 mb-2">Resources</div>
+          <div className="text-purple-600 mb-2">Resources</div>
           <h1 className="text-4xl sm:text-5xl text-gray-900 mb-4">
             Industry Insights & Expert Articles
           </h1>
@@ -361,7 +361,7 @@ export function Resources() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-green-600 text-white text-xs px-3 py-1 rounded-full font-medium">
+                  <span className="bg-purple-600 text-white text-xs px-3 py-1 rounded-full font-medium">
                     {article.category}
                   </span>
                 </div>
@@ -377,7 +377,7 @@ export function Resources() {
                   <span>{article.readTime}</span>
                 </div>
                 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
                   {article.title}
                 </h3>
                 
@@ -402,7 +402,7 @@ export function Resources() {
                     )}
                   </div>
                   
-                  <Button variant="ghost" size="sm" className="text-green-600 group-hover:text-green-700">
+                  <Button variant="ghost" size="sm" className="text-purple-600 group-hover:text-purple-700">
                     Read More →
                   </Button>
                 </div>
@@ -422,13 +422,10 @@ export function Resources() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact">
-              <Button size="lg" className="bg-green-600 hover:bg-green-700">
+              <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
                 Get Expert Consultation
               </Button>
             </a>
-            <Button variant="outline" size="lg" className="border-green-600 text-green-600 hover:bg-green-50">
-              Download Steel Guide
-            </Button>
           </div>
         </div>
       </div>

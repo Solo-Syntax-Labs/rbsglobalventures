@@ -31,7 +31,7 @@ export function Insights() {
     <section id="insights" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="text-green-600 mb-2">Resources</div>
+          <div className="text-purple-600 mb-2">Resources</div>
           <h2 className="text-3xl sm:text-4xl text-gray-900 mb-4">
             Latest Insights on Scrap Management & Recycling
           </h2>
@@ -51,7 +51,7 @@ export function Insights() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-green-600 text-white text-xs px-3 py-1 rounded-full">
+                  <span className="bg-purple-600 text-white text-xs px-3 py-1 rounded-full">
                     {insight.category}
                   </span>
                 </div>
@@ -61,11 +61,11 @@ export function Insights() {
                   <Calendar className="w-4 h-4" />
                   <span>{insight.date}</span>
                 </div>
-                <h3 className="text-gray-900 mb-2 group-hover:text-green-600 transition-colors">
+                <h3 className="text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
                   {insight.title}
                 </h3>
                 <p className="text-gray-600 text-sm mb-4">{insight.excerpt}</p>
-                <button className="text-green-600 text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
+                <button className="text-purple-600 text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
                   Read More
                   <ArrowRight className="w-4 h-4" />
                 </button>
@@ -75,7 +75,7 @@ export function Insights() {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
+          <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-50">
             View All Articles
           </Button>
         </div>

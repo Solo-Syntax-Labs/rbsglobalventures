@@ -11,13 +11,14 @@ export function Partners() {
     { name: 'NLC India Limited', image: '/partners/nlcindia.webp', bgColor: 'bg-gray-50' },
     { name: 'VinFast Auto India', image: '/partners/VinFast.jpg', bgColor: 'bg-gray-100' },
     { name: 'Ferron Steels', image: '/partners/ferronsteels.png', bgColor: 'bg-gray-50' },
+    { name: 'ISRO', image: '/partners/Indian_Space_Research_Organisation_Logo.png', bgColor: 'bg-gray-100' },
   ];
 
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="text-green-600 mb-2">Trusted Partners</div>
+          <div className="text-purple-600 mb-2">Trusted Partners</div>
           <h2 className="text-3xl sm:text-4xl text-gray-900 mb-4">
             Trusted by Leading Industries
           </h2>

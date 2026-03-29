@@ -22,7 +22,7 @@ export function CookiePolicy() {
               </Button>
             </Link>
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
                 <Cookie className="w-5 h-5 text-white" />
               </div>
               <span className="font-semibold text-gray-900">RBS Global Ventures</span>
@@ -35,8 +35,8 @@ export function CookiePolicy() {
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <header className="mb-12">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-              <Cookie className="w-6 h-6 text-green-600" />
+            <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+              <Cookie className="w-6 h-6 text-purple-600" />
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Cookie Policy</h1>
@@ -61,7 +61,7 @@ export function CookiePolicy() {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <Cookie className="w-5 h-5 text-green-600" />
+              <Cookie className="w-5 h-5 text-purple-600" />
               What Are Cookies?
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -82,14 +82,14 @@ export function CookiePolicy() {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <Settings className="w-5 h-5 text-green-600" />
+              <Settings className="w-5 h-5 text-purple-600" />
               Types of Cookies We Use
             </h2>
             <div className="space-y-4">
               <div className="bg-white p-5 rounded-lg border border-gray-200">
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <CheckCircle className="w-4 h-4 text-green-600" />
+                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <CheckCircle className="w-4 h-4 text-purple-600" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Essential Cookies</h3>
@@ -258,9 +258,9 @@ export function CookiePolicy() {
                   their respective privacy settings:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li><strong>Google Analytics:</strong> <a href="https://tools.google.com/dlpage/gaoptout" className="text-green-600 hover:underline">Opt out here</a></li>
-                  <li><strong>Facebook:</strong> <a href="https://www.facebook.com/ads/preferences" className="text-green-600 hover:underline">Ad preferences here</a></li>
-                  <li><strong>Google Ads:</strong> <a href="https://adssettings.google.com" className="text-green-600 hover:underline">Settings here</a></li>
+                  <li><strong>Google Analytics:</strong> <a href="https://tools.google.com/dlpage/gaoptout" className="text-purple-600 hover:underline">Opt out here</a></li>
+                  <li><strong>Facebook:</strong> <a href="https://www.facebook.com/ads/preferences" className="text-purple-600 hover:underline">Ad preferences here</a></li>
+                  <li><strong>Google Ads:</strong> <a href="https://adssettings.google.com" className="text-purple-600 hover:underline">Settings here</a></li>
                 </ul>
               </div>
             </div>
@@ -330,16 +330,16 @@ export function CookiePolicy() {
               </p>
               <div className="space-y-2">
                 <p className="text-gray-700"><strong>Company:</strong> RBS Global Ventures</p>
-                <p className="text-gray-700"><strong>Email:</strong> info@rbsglobalventures.com</p>
-                <p className="text-gray-700"><strong>Phone:</strong> +91-9092473805</p>
-                <p className="text-gray-700"><strong>Address:</strong> 111/A Utchini Magaliamman Kovil Street, Kayalpattinam, Tuticorin - 628204, Tamil Nadu, India</p>
-                <p className="text-gray-700"><strong>GSTIN:</strong> 33APHPR5704E1Z2</p>
+                <p className="text-gray-700"><strong>Email:</strong> rbsglobalventures@gmail.com</p>
+                <p className="text-gray-700"><strong>Phone:</strong> 86819 71471</p>
+                <p className="text-gray-700"><strong>Address:</strong> Royal Complex, Door No. 8G8, ST-8, Thisaikaval North Street, Arumuganeri - 628202, Tuticorin District, Tamil Nadu, India</p>
+                <p className="text-gray-700"><strong>GSTIN:</strong> 33DWVPB8302Q1ZY</p>
               </div>
             </div>
           </section>
 
           <section className="mt-12 pt-8 border-t border-gray-200">
-            <div className="bg-green-50 p-6 rounded-lg">
+            <div className="bg-purple-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Your Rights Under Indian Law</h3>
               <p className="text-gray-700 mb-3">
                 Under the Information Technology Act, 2000 and rules, you have the right to:

@@ -11,9 +11,11 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-              <Recycle className="w-6 h-6 text-white" />
-            </div>
+            <img 
+              src="/rbs-logo.png" 
+              alt="RBS Global Ventures Logo" 
+              className="w-10 h-10 rounded-lg"
+            />
             <div>
               <div className="font-bold text-lg text-gray-900">RBS Global Ventures</div>
               <div className="text-xs text-gray-600">Steel & Scrap Trading</div>
@@ -22,13 +24,13 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#home" className="text-gray-700 hover:text-green-600 transition-colors">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-green-600 transition-colors">About</a>
-            <a href="#services" className="text-gray-700 hover:text-green-600 transition-colors">Services</a>
-            <a href="#resources" className="text-gray-700 hover:text-green-600 transition-colors">Resources</a>
-            <a href="#contact" className="text-gray-700 hover:text-green-600 transition-colors">Contact</a>
+            <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">Home</a>
+            <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">About</a>
+            <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">Services</a>
+            <a href="#resources" className="text-gray-700 hover:text-purple-600 transition-colors">Resources</a>
+            <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</a>
             <a href="#contact">
-            <Button className="bg-green-600 hover:bg-green-700">Get Started</Button>
+            <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button>
           </a>
           </nav>
 
@@ -45,13 +47,13 @@ export function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col gap-4">
-              <a href="#home" className="text-gray-700 hover:text-green-600 transition-colors">Home</a>
-              <a href="#about" className="text-gray-700 hover:text-green-600 transition-colors">About</a>
-              <a href="#services" className="text-gray-700 hover:text-green-600 transition-colors">Services</a>
-              <a href="#resources" className="text-gray-700 hover:text-green-600 transition-colors">Resources</a>
-              <a href="#contact" className="text-gray-700 hover:text-green-600 transition-colors">Contact</a>
+              <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">Home</a>
+              <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">About</a>
+              <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">Services</a>
+              <a href="#resources" className="text-gray-700 hover:text-purple-600 transition-colors">Resources</a>
+              <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</a>
               <a href="#contact">
-              <Button className="bg-green-600 hover:bg-green-700 w-full">Get Started</Button>
+              <Button className="bg-purple-600 hover:bg-purple-700 w-full">Get Started</Button>
             </a>
             </nav>
           </div>

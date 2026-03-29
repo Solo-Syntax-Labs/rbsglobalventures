@@ -22,7 +22,7 @@ export function TermsOfService() {
               </Button>
             </Link>
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
                 <FileText className="w-5 h-5 text-white" />
               </div>
               <span className="font-semibold text-gray-900">RBS Global Ventures</span>
@@ -35,8 +35,8 @@ export function TermsOfService() {
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <header className="mb-12">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-              <FileText className="w-6 h-6 text-green-600" />
+            <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+              <FileText className="w-6 h-6 text-purple-600" />
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Terms of Service</h1>
@@ -61,7 +61,7 @@ export function TermsOfService() {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <Users className="w-5 h-5 text-green-600" />
+              <Users className="w-5 h-5 text-purple-600" />
               Acceptance of Terms
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -106,7 +106,7 @@ export function TermsOfService() {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <AlertTriangle className="w-5 h-5 text-green-600" />
+              <AlertTriangle className="w-5 h-5 text-purple-600" />
               User Responsibilities
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -175,7 +175,7 @@ export function TermsOfService() {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <Scale className="w-5 h-5 text-green-600" />
+              <Scale className="w-5 h-5 text-purple-600" />
               Limitation of Liability
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -305,10 +305,10 @@ export function TermsOfService() {
               </p>
               <div className="space-y-2">
                 <p className="text-gray-700"><strong>Company:</strong> RBS Global Ventures</p>
-                <p className="text-gray-700"><strong>Email:</strong> info@rbsglobalventures.com</p>
-                <p className="text-gray-700"><strong>Phone:</strong> +91-9092473805</p>
-                <p className="text-gray-700"><strong>Address:</strong> 111/A Utchini Magaliamman Kovil Street, Kayalpattinam, Tuticorin - 628204, Tamil Nadu, India</p>
-                <p className="text-gray-700"><strong>GSTIN:</strong> 33APHPR5704E1Z2</p>
+                <p className="text-gray-700"><strong>Email:</strong> rbsglobalventures@gmail.com</p>
+                <p className="text-gray-700"><strong>Phone:</strong> 86819 71471</p>
+                <p className="text-gray-700"><strong>Address:</strong> Royal Complex, Door No. 8G8, ST-8, Thisaikaval North Street, Arumuganeri - 628202, Tuticorin District, Tamil Nadu, India</p>
+                <p className="text-gray-700"><strong>GSTIN:</strong> 33DWVPB8302Q1ZY</p>
                 <p className="text-gray-700"><strong>Business Hours:</strong> Monday-Saturday 9:00 AM - 7:00 PM, Sunday 10:00 AM - 4:00 PM</p>
               </div>
             </div>
