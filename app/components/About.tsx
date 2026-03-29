@@ -1,22 +1,53 @@
 import { CheckCircle2 } from 'lucide-react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import Image from 'next/image';
 
 export function About() {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Image */}
+          {/* Product Image Grid */}
           <div className="relative">
-            <div className="rounded-2xl overflow-hidden">
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1605050714296-ef81755470ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWN5Y2xpbmclMjBzdXN0YWluYWJpbGl0eSUyMGVudmlyb25tZW50fGVufDF8fHx8MTc3NDE1NDg1N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Sustainability"
-                className="w-full h-full object-cover"
-              />
+            <div className="grid grid-cols-2 gap-3 rounded-2xl overflow-hidden">
+              <div className="rounded-xl overflow-hidden aspect-square">
+                <Image
+                  src="/products/TMT steel.jpeg"
+                  alt="TMT Steel Rods"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden aspect-square">
+                <Image
+                  src="/products/Structural steel-1.jpeg"
+                  alt="Structural Steel"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden aspect-square">
+                <Image
+                  src="/products/Structural steel-2.jpeg"
+                  alt="Structural Steel"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden aspect-square">
+                <Image
+                  src="/products/Scrap.jpg"
+                  alt="Scrap"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-purple-600 text-white p-6 rounded-xl shadow-xl">
-              <div className="text-3xl">4+</div>
+            <div className="absolute -bottom-4 -right-4 bg-purple-600 text-white p-5 rounded-xl shadow-xl">
+              <div className="text-3xl font-bold">4+</div>
               <div className="text-sm">Years Experience</div>
             </div>
           </div>
@@ -66,7 +97,7 @@ export function About() {
 
         {/* MSME Registration Section */}
         <div className="mt-12 bg-purple-50 rounded-2xl p-8 border border-purple-200">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-center md:text-left">
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">MSME Registered</h4>
               <p className="text-gray-600 text-sm">
@@ -78,7 +109,7 @@ export function About() {
               href="/documents/Udyam Registration Certificate.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium"
+              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium inline-block"
             >
               View Certificate
             </a>
