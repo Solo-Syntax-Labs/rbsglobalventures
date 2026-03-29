@@ -1,13 +1,18 @@
 {
   "version": 2,
+  "framework": "nextjs",
+  "rootDirectory": "nextjs/rbsglobalventures",
+  "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": "vite",
   "devCommand": "npm run dev",
   "env": {
-    "VITE_APP_NAME": "RBS Global Ventures",
-    "VITE_APP_URL": "https://rbsglobalventures.vercel.app"
+    "NEXT_PUBLIC_COMPANY_EMAIL": "rbsglobalventures@gmail.com",
+    "NEXT_PUBLIC_COMPANY_PHONE": "8681971471",
+    "NEXT_PUBLIC_COMPANY_ADDRESS": "Royal Complex, Door No. 8G8, ST-8, Thisaikaval North Street, Arumuganeri - 628202, Tuticorin District, Tamil Nadu, India",
+    "NEXT_PUBLIC_COMPANY_GSTIN": "33DWVPB8302Q1ZY",
+    "SMTP_SENDER": "@smtp_sender",
+    "SMTP_APP_PASSWORD": "@smtp_app_password",
+    "RECIPIENT_EMAILS": "@recipient_emails"
   },
   "headers": [
     {
@@ -32,31 +37,13 @@
       ]
     },
     {
-      "source": "/static/(.*)",
+      "source": "/_next/static/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/privacy-policy",
-      "destination": "/"
-    },
-    {
-      "source": "/terms-of-service", 
-      "destination": "/"
-    },
-    {
-      "source": "/cookie-policy",
-      "destination": "/"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ]
 }
