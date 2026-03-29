@@ -8,10 +8,7 @@
     "NEXT_PUBLIC_COMPANY_EMAIL": "rbsglobalventures@gmail.com",
     "NEXT_PUBLIC_COMPANY_PHONE": "8681971471",
     "NEXT_PUBLIC_COMPANY_ADDRESS": "Royal Complex, Door No. 8G8, ST-8, Thisaikaval North Street, Arumuganeri - 628202, Tuticorin District, Tamil Nadu, India",
-    "NEXT_PUBLIC_COMPANY_GSTIN": "33DWVPB8302Q1ZY",
-    "SMTP_SENDER": "@smtp_sender",
-    "SMTP_APP_PASSWORD": "@smtp_app_password",
-    "RECIPIENT_EMAILS": "@recipient_emails"
+    "NEXT_PUBLIC_COMPANY_GSTIN": "33DWVPB8302Q1ZY"
   },
   "headers": [
     {

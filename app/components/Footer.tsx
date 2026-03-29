@@ -26,20 +26,6 @@ export function Footer() {
             <p className="text-sm text-gray-400 mb-4">
               Leading steel and scrap trading company in Tamil Nadu with 4+ years of excellence.
             </p>
-            <div className="flex gap-3">
-              <a href="#" className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors">
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors">
-                <Twitter className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors">
-                <Instagram className="w-4 h-4" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
