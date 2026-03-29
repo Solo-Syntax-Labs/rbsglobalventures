@@ -1,5 +1,6 @@
 import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
+import { LottieAnimation } from './ui/LottieAnimation';
 
 export function Hero() {
   return (
@@ -18,12 +19,14 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl text-white mb-6">
-          Trusted <span className="text-purple-400">Steel & Scrap Trading</span><br />
-          Partners in Tamil Nadu
+          <span className="text-purple-400">Building Strength. Creating Value.</span><br />
+          Steel & Scrap Trading Experts in Tamil Nadu
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-          Premium steel products for industrial and home construction. Complete scrap trading 
-          services across Tamil Nadu with transparent pricing and reliable delivery.
+          RBS Global Ventures is a trusted name in steel supply and scrap trading across Tamil Nadu. 
+          We deliver high-quality steel materials for construction and provide efficient scrap collection 
+          and recycling solutions for industries and businesses. With a strong network and commitment to 
+          transparency, we ensure reliable supply, fair pricing, and long-term partnerships.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#contact">
@@ -39,19 +42,28 @@ export function Hero() {
           </a>
         </div>
 
+        {/* Lottie animation accent */}
+        <div className="hidden lg:flex justify-center mt-10">
+          <LottieAnimation
+            src="https://assets-v2.lottiefiles.com/a/a848e068-1174-11ee-9dd2-d366e63fde47/7zWioM5Zta.lottie"
+            width={200}
+            height={200}
+          />
+        </div>
+
         {/* Trust Badges */}
-        <div className="mt-16 flex flex-wrap justify-center items-center gap-8 text-gray-400">
+        <div className="mt-8 flex flex-wrap justify-center items-center gap-8 text-gray-400">
           <div className="text-center">
             <div className="text-3xl text-white">4+</div>
-            <div className="text-sm">Years Experience</div>
+            <div className="text-sm">Years Industry Experience</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl text-white">10,000+</div>
-            <div className="text-sm">Tons Traded</div>
+            <div className="text-3xl text-white">15000+</div>
+            <div className="text-sm">Tons Handled</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl text-white">500+</div>
-            <div className="text-sm">Happy Clients</div>
+            <div className="text-3xl text-white">50+</div>
+            <div className="text-sm">Trusted Clients</div>
           </div>
           <div className="text-center">
             <div className="text-3xl text-white">20+</div>

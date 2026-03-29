@@ -4,34 +4,28 @@ import { CheckCircle2 } from 'lucide-react';
 export function SteelProducts() {
   const products = [
     {
-      category: 'TMT Bars & Rods',
+      category: '🏗️ TMT Bars',
       image: '/products/TMT steel.jpeg',
       items: ['Fe 415', 'Fe 500', 'Fe 550', 'Fe 600'],
       description: 'High-grade TMT bars for construction',
     },
     {
-      category: 'TMT Bars & Rods',
+      category: '🏠 Home Construction Materials',
       image: '/products/Rods image.jpeg',
-      items: ['Fe 415', 'Fe 500', 'Fe 550', 'Fe 600'],
-      description: 'High-quality steel rods for construction',
+      items: ['Steel Rods', 'Window Frames', 'Door Frames', 'Grills'],
+      description: 'Complete steel solutions for house construction',
     },
     {
-      category: 'Structural Steel',
+      category: '🏭 Structural Steel',
       image: '/products/Structural steel-1.jpeg',
       items: ['I-Beams', 'H-Beams', 'Channels', 'Angles'],
       description: 'Industrial structural components',
     },
     {
-      category: 'Structural Steel',
+      category: '📄 Steel Sheets & Plates',
       image: '/products/Structural steel-2.jpeg',
-      items: ['I-Beams', 'H-Beams', 'Channels', 'Angles'],
-      description: 'Heavy-duty structural steel products',
-    },
-    {
-      category: 'Structural Steel',
-      image: '/products/Structural steel-3.jpeg',
-      items: ['I-Beams', 'H-Beams', 'Channels', 'Angles'],
-      description: 'Premium structural steel solutions',
+      items: ['MS Plates', 'HR Sheets', 'CR Sheets', 'Chequered Plates'],
+      description: 'Versatile steel sheets and plates',
     },
   ];
 
@@ -39,9 +33,9 @@ export function SteelProducts() {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="text-purple-600 mb-2">Our Products</div>
+          <div className="text-purple-600 mb-2">🏗️ Our Products</div>
           <h2 className="text-3xl sm:text-4xl text-gray-900 mb-4">
-            Premium Steel Products for<br />Industrial & Home Use
+            Premium Steel Products for Industrial & Home Use
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We supply high-quality steel products for construction, manufacturing, and residential 
@@ -92,9 +86,6 @@ export function SteelProducts() {
                 Request Quote
               </button>
             </a>
-            <button className="bg-purple-700 text-white px-8 py-3 rounded-lg hover:bg-purple-800 transition-colors border border-white/20">
-              View Price List
-            </button>
           </div>
         </div>
       </div>

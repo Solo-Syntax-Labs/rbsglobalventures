@@ -23,19 +23,19 @@ export function About() {
 
           {/* Content */}
           <div>
-            <div className="text-purple-600 mb-2">About RBS Global Ventures</div>
+            <div className="text-purple-600 mb-2">🧠 About Us</div>
             <h2 className="text-3xl sm:text-4xl text-gray-900 mb-6">
-              Your Trusted Partner for Steel & Scrap Trading in Tamil Nadu
+              Your Trusted Steel & Scrap Trading Partner in Tamil Nadu
             </h2>
             <p className="text-gray-600 mb-6">
-              RBS Global Ventures is a leading steel and scrap trading company based in Tamil Nadu, India. 
-              We specialize in providing high-quality steel products and comprehensive scrap trading services 
-              to industries across the region.
+              At RBS Global Ventures, we focus on two core strengths: steel distribution and scrap management. 
+              We support construction companies, manufacturing industries, and individual home builders with 
+              premium materials and reliable services across Tamil Nadu.
             </p>
             <p className="text-gray-600 mb-8">
-              With over 4 years of experience, we've built a reputation for reliability, transparency, 
-              and excellence. From steel procurement to scrap collection and recycling, we offer end-to-end 
-              solutions that help businesses optimize their operations while contributing to a sustainable future.
+              Our mission is simple: Provide quality materials, ensure transparent trading, and promote 
+              sustainable recycling. With over 4 years of experience, we've built a reputation for reliability, 
+              transparency, and excellence, serving 20+ cities with dependable supply chains and fair pricing.
             </p>
 
             <div className="space-y-4">

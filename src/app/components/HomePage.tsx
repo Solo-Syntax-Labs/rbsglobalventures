@@ -3,7 +3,9 @@ import { Header } from './Header';
 import { Hero } from './Hero';
 import { About } from './About';
 import { Services } from './Services';
+import { WhyChooseUs } from './WhyChooseUs';
 import { SteelProducts } from './SteelProducts';
+import { CompanyVision } from './CompanyVision';
 import { WasteManagement } from './WasteManagement';
 import { TamilNaduPresence } from './TamilNaduPresence';
 import { Partners } from './Partners';
@@ -18,7 +20,9 @@ export function HomePage() {
       <Hero />
       <About />
       <Services />
+      <WhyChooseUs />
       <SteelProducts />
+      <CompanyVision />
       <WasteManagement />
       <TamilNaduPresence />
       <Partners />
